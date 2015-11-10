@@ -1,5 +1,5 @@
 //
-//  RadioButton.m
+//  MHRadioButton.m
 //  
 //
 //  Created by Macro on 15-11-9.

@@ -1,5 +1,5 @@
 //
-//  RadioButton.h
+//  MHRadioButton.h
 //  
 //
 //  Created by Macro on 15-11-9.
