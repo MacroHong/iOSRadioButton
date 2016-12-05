@@ -14,6 +14,7 @@
 		6CA51D771BF097CF00A00DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA51D761BF097CF00A00DC5 /* Assets.xcassets */; };
 		6CA51D7A1BF097CF00A00DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA51D781BF097CF00A00DC5 /* LaunchScreen.storyboard */; };
 		6CA51D861BF09F3900A00DC5 /* MHRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA51D851BF09F3900A00DC5 /* MHRadioButton.m */; };
+		6CE5727B1DF5C59900E3196E /* UIButton+MHExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5727A1DF5C59900E3196E /* UIButton+MHExtra.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		6CA51D7B1BF097CF00A00DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CA51D841BF09F3900A00DC5 /* MHRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHRadioButton.h; path = MHRadioButton/libs/MHRadioButton.h; sourceTree = "<group>"; };
 		6CA51D851BF09F3900A00DC5 /* MHRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHRadioButton.m; path = MHRadioButton/libs/MHRadioButton.m; sourceTree = "<group>"; };
+		6CE572791DF5C59900E3196E /* UIButton+MHExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MHExtra.h"; sourceTree = "<group>"; };
+		6CE5727A1DF5C59900E3196E /* UIButton+MHExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MHExtra.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 		6CA51D871BF09F3E00A00DC5 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				6CE572791DF5C59900E3196E /* UIButton+MHExtra.h */,
+				6CE5727A1DF5C59900E3196E /* UIButton+MHExtra.m */,
 				6CA51D841BF09F3900A00DC5 /* MHRadioButton.h */,
 				6CA51D851BF09F3900A00DC5 /* MHRadioButton.m */,
 			);
@@ -166,6 +171,7 @@
 				6CA51D6F1BF097CF00A00DC5 /* AppDelegate.m in Sources */,
 				6CA51D6C1BF097CF00A00DC5 /* main.m in Sources */,
 				6CA51D861BF09F3900A00DC5 /* MHRadioButton.m in Sources */,
+				6CE5727B1DF5C59900E3196E /* UIButton+MHExtra.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,8 +2,8 @@
 //  MHRadioButton.h
 //  
 //
-//  Created by Macro on 15-11-9.
-//  Copyright (c) 2015年 Macro. All rights reserved.
+//  Created by Macro on 14-11-9.
+//  Copyright (c) 2014年 Macro. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -14,7 +14,7 @@ static const NSUInteger kRadioButtonWidth = 22;
 static const NSUInteger kRadioButtonHeight = 22;
 
 /*!
- *  @author Macro QQ:778165728, 15-11-09
+ *  @author Macro, 14-11-09
  *
  *  @brief  协议, RadioButton的选中项改变时, 触发此方法
  */
@@ -22,15 +22,14 @@ static const NSUInteger kRadioButtonHeight = 22;
 
 
 /*!
- *  @author Macro QQ:778165728, 15-11-09
+ *  @author Macro, 14-11-09
  *
  *  @brief  选项改变
  *
  *  @param index   NSUInteger: 按钮下标
  *  @param groupID NSString *:单个按钮所在的"组号"
  */
-- (void)radioButtonSelectedAtIndex:(NSUInteger)index
-                           inGroup:(NSString *)groupID;
+- (void)radioButtonSelectedAtIndex:(NSUInteger)index inGroup:(NSString *)groupID;
 
 @end
 
@@ -40,7 +39,7 @@ static const NSUInteger kRadioButtonHeight = 22;
 
 
 /*!
- *  @author Macro QQ:778165728, 15-11-09
+ *  @author Macro, 14-11-09
  *
  *  @brief  初始化一个RadioButton
  *
@@ -54,14 +53,14 @@ static const NSUInteger kRadioButtonHeight = 22;
 
 
 /*!
- *  @author Macro QQ:778165728, 15-11-10
+ *  @author Macro, 14-11-10
  *
  *  @brief  设置RadioButton为选中状态
  */
 - (void)selected;
 
 /*!
- *  @author Macro QQ:778165728, 15-11-10
+ *  @author Macro, 14-11-10
  *
  *  @brief  添加观察者
  *
@@ -73,7 +72,7 @@ static const NSUInteger kRadioButtonHeight = 22;
 
 
 /*!
- *  @author Macro QQ:778165728, 15-11-10
+ *  @author Macro, 14-11-10
  *
  *  @brief  获取特定组号的那组RadioButton的选中下标
  *

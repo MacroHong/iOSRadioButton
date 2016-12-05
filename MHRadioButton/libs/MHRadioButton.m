@@ -2,8 +2,8 @@
 //  MHRadioButton.m
 //  
 //
-//  Created by Macro on 15-11-9.
-//  Copyright (c) 2015年 Macro. All rights reserved.
+//  Created by Macro on 14-11-9.
+//  Copyright (c) 2014年 Macro. All rights reserved.
 //
 
 #import "MHRadioButton.h"
@@ -37,7 +37,7 @@ static NSMutableArray<NSString *> *groupIdsRecord;
 @implementation MHRadioButton
 
 /*!
- *  @author Macro QQ:778165728, 15-11-10
+ *  @author Macro, 14-11-10
  *
  *  @brief  添加观察者 和 组号的映射关系
  *
@@ -55,7 +55,7 @@ static NSMutableArray<NSString *> *groupIdsRecord;
 }
 
 /*!
- *  @author Macro QQ:778165728, 15-11-10
+ *  @author Macro, 14-11-10
  *
  *  @brief  注册实例, 将当前RadioButton加入实例队列
  *
@@ -74,7 +74,7 @@ static NSMutableArray<NSString *> *groupIdsRecord;
 }
 
 /*!
- *  @author Macro QQ:778165728, 15-11-10
+ *  @author Macro, 14-11-10
  *
  *  @brief  设置当前选中状态
  *
@@ -104,7 +104,7 @@ static NSMutableArray<NSString *> *groupIdsRecord;
 }
 
 /*!
- *  @author Macro QQ:778165728, 15-11-10
+ *  @author Macro, 14-11-10
  *
  *  @brief  获取特定组号的那组RadioButton的选中下标
  *
@@ -123,7 +123,7 @@ static NSMutableArray<NSString *> *groupIdsRecord;
 
 
 /*!
- *  @author Macro QQ:778165728, 15-11-09
+ *  @author Macro, 14-11-09
  *
  *  @brief  初始化一个RadioButton
  *
@@ -150,18 +150,18 @@ static NSMutableArray<NSString *> *groupIdsRecord;
 
 
 /*!
- *  @author Macro QQ:778165728, 15-11-09
+ *  @author Macro, 14-11-09
  *
  *  @brief  设置一些默认属性
  */
 - (void)defaultInit {
-    CGRect frame = CGRectMake(0, 0, kRadioButtonWidth * 2, kRadioButtonHeight * 2);
+    CGRect frame = CGRectMake(0, 0, kRadioButtonWidth, kRadioButtonHeight);
     self.frame = frame;
 
     _button = [UIButton buttonWithType:(UIButtonTypeCustom)];
     _button.frame = frame;
     _button.adjustsImageWhenHighlighted = NO;
-    [_button setBackgroundColor:[UIColor lightGrayColor]]; // test
+//    [_button setBackgroundColor:[UIColor lightGrayColor]]; // test
     [_button setImage:[UIImage imageNamed:@"RadioButton-Unselected"]
              forState:(UIControlStateNormal)];
     [_button setImage:[UIImage imageNamed:@"RadioButton-Selected"]
@@ -182,6 +182,7 @@ static NSMutableArray<NSString *> *groupIdsRecord;
     _button.selected = YES;
     [MHRadioButton buttonSelected:self];
 }
+
 
 
 - (void)otherButtonSelected:(MHRadioButton *)rb {
